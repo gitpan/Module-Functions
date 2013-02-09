@@ -20,7 +20,7 @@ no_index:
 provides:
   Module::Functions:
     file: lib/Module/Functions.pm
-    version: v1.0.0
+    version: v2.0.0
 requires:
   Exporter: 0
   Sub::Identify: 0
@@ -28,4 +28,4 @@ requires:
   perl: 5.008005
 resources:
   license: http://dev.perl.org/licenses/
-version: v1.0.0
+version: v2.0.0

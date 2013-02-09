@@ -42,7 +42,7 @@
    "provides" : {
       "Module::Functions" : {
          "file" : "lib/Module/Functions.pm",
-         "version" : "v1.0.0"
+         "version" : "v2.0.0"
       }
    },
    "release_status" : "stable",
@@ -51,5 +51,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v1.0.0"
+   "version" : "v2.0.0"
 }

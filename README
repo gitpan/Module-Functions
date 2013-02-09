@@ -28,8 +28,17 @@ METHODS
             use File::Spec::Functions qw/catfile/;
             sub foo { }
 
-        In this case, ceturn value of "get_public_functions('Foo')" does not
+        In this case, return value of "get_public_functions('Foo')" does not
         contain 'catfile'. Return value is "('foo')".
+
+RULES
+    This module remove some function names.
+
+    Rules are here:
+
+    BEGIN, UNITCHECK, CHECK, INIT, and END are hidden.
+    'import' method is hidden
+    function name prefixed by '_' is hidden.
 
 AUTHOR
     Tokuhiro Matsuno <tokuhirom AAJKLFJEF@ GMAIL COM>

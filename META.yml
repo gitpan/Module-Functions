@@ -1,14 +1,15 @@
 ---
 abstract: 'Get function list from package.'
 author:
-  - 'Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>'
+  - 'Tokuhiro Matsuno <tokuhirom AAJKLFJEF@ GMAIL COM>'
 build_requires:
   Test::More: 0.98
-  Test::Requires: 0
 configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Minilla/v0.0.53, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,16 +17,28 @@ meta-spec:
 name: Module-Functions
 no_index:
   directory:
+    - t
+    - xt
     - inc
+    - share
+    - eg
+    - examples
+    - author
 provides:
   Module::Functions:
     file: lib/Module/Functions.pm
-    version: v2.1.1
+    version: v2.1.2
 requires:
   Exporter: 0
   Sub::Identify: 0
   parent: 0
   perl: 5.008005
 resources:
-  license: http://dev.perl.org/licenses/
-version: v2.1.1
+  bugtracker: https://github.com/tokuhirom/Module-Functions/issues
+  homepage: https://github.com/tokuhirom/Module-Functions
+  repository: git://github.com/tokuhirom/Module-Functions.git
+version: 2.1.2
+x_contributors:
+  - 'bayashi <bayashi@cpan.org>'
+  - 'Kazuhiro Osawa <yappo@shibuya.pl>'
+  - 'tokuhirom <tokuhirom@gmail.com>'

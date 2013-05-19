@@ -1,5 +1,3 @@
-.gitignore
-.travis.yml
 Build.PL
 Changes
 LICENSE
@@ -13,8 +11,5 @@ t/02_full_functions.t
 t/lib/Bar.pm
 t/lib/Foo.pm
 xt/02_perlcritic.t
-Build.PL
-LICENSE
-META.json
 META.yml
 MANIFEST
